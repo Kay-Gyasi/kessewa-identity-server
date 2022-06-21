@@ -4,3 +4,8 @@
 {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{},"$type":"AuthorizeRequestValidationLog"}
 2022-06-14 00:03:24.701 +00:00 [ERR] Request validation failed
 2022-06-14 00:04:10.948 +00:00 [ERR] No access token found.
+2022-06-14 11:08:19.065 +00:00 [ERR] Scope weatherapi.read not found in store.
+2022-06-14 11:08:19.187 +00:00 [ERR] Invalid scopes requested, {"ClientId":"testapi.client","ClientName":"Test Api","GrantType":"client_credentials","Scopes":null,"AuthorizationCode":"********","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"weatherapi.read"},"$type":"TokenRequestValidationLog"}
+2022-06-14 11:17:02.494 +00:00 [ERR] Client testmvc is not allowed access to scope openid.
+2022-06-14 11:17:02.495 +00:00 [ERR] Client testmvc is not allowed access to scope profile.
+2022-06-14 11:17:02.504 +00:00 [ERR] Request validation failed
